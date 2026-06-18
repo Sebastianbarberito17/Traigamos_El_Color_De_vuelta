@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Traigamos el Color de Vuelta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══ NAV ═══ -->
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="#top" class="nav-logo" data-es="Color" data-en="Color">Color</a>
+      <ul class="nav-links" role="list">
+        <li><a href="#fundamentos" data-es="Fundamentos" data-en="Foundations">Fundamentos</a></li>
+        <li><a href="#historia" data-es="Historia" data-en="History">Historia</a></li>
+        <li><a href="#aplicacion" data-es="Aplicación" data-en="Application">Aplicación</a></li>
+        <li><a href="#galeria" data-es="Galería" data-en="Gallery">Galería</a></li>
+      </ul>
+      <button class="lang-toggle" id="langToggle" aria-label="Cambiar idioma">
+        <span class="lang-icon">🌐</span>
+        <span class="lang-label" id="langLabel">EN</span>
+      </button>
+      <button class="nav-burger" id="navBurger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ═══ HERO ═══ -->
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="hero-noise"></div>
+      <div class="hero-orbs" aria-hidden="true">
+        <span class="orb orb--violet"></span>
+        <span class="orb orb--gold"></span>
+        <span class="orb orb--rose"></span>
+      </div>
+      <div class="hero-content">
+        <p class="hero-eyebrow" data-es="Conferencia · ECCI · 2025" data-en="Conference · ECCI · 2025">Conferencia · ECCI · 2025</p>
+        <h1 class="hero-title" id="hero-title">
+          <span class="line" data-es="Traigamos el" data-en="Let's Bring">Traigamos el</span>
+          <span class="line line--accent" data-es="Color" data-en="Color">Color</span>
+          <span class="line" data-es="de Vuelta" data-en="Back">de Vuelta</span>
+        </h1>
+        <p class="hero-sub" data-es="Una exploración del origen, la historia y el poder de los pigmentos que construyeron la civilización." data-en="An exploration of the origin, history, and power of the pigments that built civilization.">
+          Una exploración del origen, la historia y el poder de los pigmentos que construyeron la civilización.
+        </p>
+        <div class="hero-ponente">
+          <figure class="ponente-figure">
+            <div class="ponente-img-wrap">
+              <!-- Placeholder for Foto_Conferencia_1 -->
+              
+                <img src="imagenes/Conferencia - Sara Vilora - Foto 1.jpeg" >
+               
+              
+            </div>
+            <figcaption>
+              <strong data-es="Sara Viloria" data-en="Sara Viloria">Sara Viloria</strong>
+              <span data-es="Ponente Principal · Teoría del Color" data-en="Keynote Speaker · Color Theory"> Teoría del Color</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <a href="#fundamentos" class="hero-scroll" aria-label="Desplázate hacia abajo">
+        <span class="scroll-line"></span>
+      </a>
+    </section>
+
+    <!-- ═══ FUNDAMENTOS ═══ -->
+    <section class="section fundamentos" id="fundamentos" aria-labelledby="fund-title">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow" data-es="01 · Fundamentos" data-en="01 · Foundations">01 · Fundamentos</p>
+          <h2 class="section-title" id="fund-title" data-es="¿Qué es el Color?" data-en="What is Color?">¿Qué es el Color?</h2>
+        </header>
+        <div class="fund-layout">
+          <div class="fund-text">
+            <article class="definition-card" aria-labelledby="rae-label">
+              <p class="def-source" id="rae-label">RAE</p>
+              <p class="def-body" data-es="Sensación producida por los rayos luminosos que impresionan los órganos visuales según la longitud de onda." data-en="Sensation produced by light rays that impress the visual organs according to wavelength.">
+                Sensación producida por los rayos luminosos que impresionan los órganos visuales según la longitud de onda.
+              </p>
+            </article>
+            <article class="definition-card" aria-labelledby="oxford-label">
+              <p class="def-source" id="oxford-label">Oxford</p>
+              <p class="def-body" data-es="La apariencia de las cosas resultante de la forma en que reflejan la luz." data-en="The appearance of things resulting from the way they reflect light.">
+                La apariencia de las cosas resultante de la forma en que reflejan la luz.
+              </p>
+            </article>
+            <blockquote class="fund-quote">
+              <p data-es="«Es más fácil definir cómo nos hace sentir algo que explicar lo que significa en sí mismo.»" data-en="«It's easier to define how something makes us feel than to explain what it means in itself.»">
+                «Es más fácil definir cómo nos hace sentir algo que explicar lo que significa en sí mismo.»
+              </p>
+            </blockquote>
+          </div>
+          <div class="fund-visual">
+            <!-- Placeholder for Foto_Conferencia_5 -->
+            <div class="img-placeholder fund-img-placeholder" aria-label="Diapositiva definiciones y círculo cromático">
+              <img src="imagenes/Conferencia - Sara Vilora - Foto 5.jpeg">
+              
+            </div>
+            <div class="chromatic-wheel" aria-hidden="true">
+              <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg" class="wheel-svg">
+                <defs>
+                  <filter id="glow">
+                    <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+                    <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                  </filter>
+                </defs>
+                <!-- 12 segments -->
+                <g transform="translate(110,110)" filter="url(#glow)">
+                  <path d="M0,0 L0,-90 A90,90 0 0,1 45,-77.9 Z" fill="#FF0000" opacity="0.9"/>
+                  <path d="M0,0 L45,-77.9 A90,90 0 0,1 77.9,-45 Z" fill="#FF4500" opacity="0.9"/>
+                  <path d="M0,0 L77.9,-45 A90,90 0 0,1 90,0 Z" fill="#FF8C00" opacity="0.9"/>
+                  <path d="M0,0 L90,0 A90,90 0 0,1 77.9,45 Z" fill="#FFD700" opacity="0.9"/>
+                  <path d="M0,0 L77.9,45 A90,90 0 0,1 45,77.9 Z" fill="#ADFF2F" opacity="0.9"/>
+                  <path d="M0,0 L45,77.9 A90,90 0 0,1 0,90 Z" fill="#00FF00" opacity="0.9"/>
+                  <path d="M0,0 L0,90 A90,90 0 0,1 -45,77.9 Z" fill="#00CED1" opacity="0.9"/>
+                  <path d="M0,0 L-45,77.9 A90,90 0 0,1 -77.9,45 Z" fill="#0000FF" opacity="0.9"/>
+                  <path d="M0,0 L-77.9,45 A90,90 0 0,1 -90,0 Z" fill="#4B0082" opacity="0.9"/>
+                  <path d="M0,0 L-90,0 A90,90 0 0,1 -77.9,-45 Z" fill="#8B008B" opacity="0.9"/>
+                  <path d="M0,0 L-77.9,-45 A90,90 0 0,1 -45,-77.9 Z" fill="#C71585" opacity="0.9"/>
+                  <path d="M0,0 L-45,-77.9 A90,90 0 0,1 0,-90 Z" fill="#FF1493" opacity="0.9"/>
+                  <circle cx="0" cy="0" r="30" fill="var(--bg-deep)" opacity="0.95"/>
+                  <text x="0" y="5" text-anchor="middle" fill="var(--cream)" font-size="9" font-family="DM Mono" letter-spacing="1">COLOR</text>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ HISTORIA ═══ -->
+    <section class="section historia" id="historia" aria-labelledby="hist-title">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow" data-es="02 · Historia" data-en="02 · History">02 · Historia</p>
+          <h2 class="section-title" id="hist-title" data-es="La Cruda Verdad Detrás de los Colores" data-en="The Harsh Truth Behind Colors">La Cruda Verdad Detrás de los Colores</h2>
+        </header>
+        <div class="historia-grid">
+
+          <article class="hist-card" aria-labelledby="hist-rupestre">
+            <div class="hist-card-img">
+              <!-- Placeholder for Foto_Conferencia_4 -->
+              <div class="img-placeholder" aria-label="Manos rupestres y fuego">
+                <img src="imagenes/Conferencia - Sara Vilora - Foto 4.jpeg">
+                
+              </div>
+              <span class="hist-era" data-es="Prehistoria" data-en="Prehistory">Prehistoria</span>
+            </div>
+            <div class="hist-card-body">
+              <h3 id="hist-rupestre" data-es="Pintura Rupestre y Fuego" data-en="Cave Painting & Fire">Pintura Rupestre y Fuego</h3>
+              <p data-es="El inicio de la expresión humana. Tierras ocres, carbón y grasas animales aplicadas bajo la luz parpadeante de las cavernas. El color como primer lenguaje universal." data-en="The dawn of human expression. Ochre earths, charcoal and animal fats applied under the flickering light of caves. Color as the first universal language.">
+                El inicio de la expresión humana. Tierras ocres, carbón y grasas animales aplicadas bajo la luz parpadeante de las cavernas. El color como primer lenguaje universal.
+              </p>
+            </div>
+          </article>
+
+          <article class="hist-card" aria-labelledby="hist-purpura">
+            <div class="hist-card-img">
+              <!-- Placeholder for Foto_Conferencia_2 -->
+              <div class="img-placeholder" aria-label="Rey Carlos III y tonalidades púrpuras">
+                <img src="imagenes/Conferencia - Sara Vilora - Foto 2.jpeg">           
+              </div>
+              <span class="hist-era hist-era--royal" data-es="Antigüedad" data-en="Antiquity">Antigüedad</span>
+            </div>
+            <div class="hist-card-body">
+              <h3 id="hist-purpura" data-es="El Púrpura Tirio — El Color de la Realeza" data-en="Tyrian Purple — The Color of Royalty">El Púrpura Tirio — El Color de la Realeza</h3>
+              <p data-es="Miles de caracoles Murex recolectados, aplastados y podridos solo para teñir una única túnica. Su costo era tan prohibitivo —y su aroma tan insoportable— que se convirtió en símbolo exclusivo del poder imperial." data-en="Thousands of Murex snails collected, crushed, and putrefied just to dye a single tunic. Its cost was so prohibitive—and its aroma so unbearable—that it became the exclusive symbol of imperial power.">
+                Miles de caracoles <em>Murex</em> recolectados, aplastados y podridos solo para teñir una única túnica. Su costo era tan prohibitivo —y su aroma tan insoportable— que se convirtió en símbolo exclusivo del poder imperial.
+              </p>
+            </div>
+          </article>
+
+          <article class="hist-card" aria-labelledby="hist-azul">
+            <div class="hist-card-img">
+              <!-- Placeholder for Foto_Conferencia_3 -->
+              <div class="img-placeholder" aria-label="Pintura de la Virgen y la Joven de la Perla">
+                <img src="imagenes/Conferencia - Sara Vilora - Foto 3.jpeg">
+              </div>
+              <span class="hist-era hist-era--blue" data-es="Renacimiento" data-en="Renaissance">Renacimiento</span>
+            </div>
+            <div class="hist-card-body">
+              <h3 id="hist-azul" data-es="El Azul Ultramar — El Oro Molido" data-en="Ultramarine Blue — Ground Gold">El Azul Ultramar — El Oro Molido</h3>
+              <p data-es="Extraído de la piedra semipreciosa lapislázuli en las peligrosas minas de Afganistán, su costo lo reservó casi exclusivamente para el manto de la Virgen María en toda la pintura renacentista." data-en="Extracted from the semi-precious lapis lazuli stone in the dangerous mines of Afghanistan, its cost reserved it almost exclusively for the Virgin Mary's mantle in Renaissance painting.">
+                Extraído de la piedra semipreciosa lapislázuli en las peligrosas minas de Afganistán, su costo lo reservó casi exclusivamente para el manto de la Virgen María en toda la pintura renacentista.
+              </p>
+            </div>
+          </article>
+
+          <article class="hist-card" aria-labelledby="hist-amarillo">
+            <div class="hist-card-img">
+              <div class="img-placeholder" aria-label="gran amarillo">
+                <img src="imagenes/Conferencia - Sara Vilora - Foto 7.jpeg">
+                
+              </div>
+              
+              <span class="hist-era hist-era--yellow" data-es="Siglo XIX" data-en="19th Century">Siglo XIX</span>
+            </div>
+            <div class="hist-card-body">
+              <h3 id="hist-amarillo" data-es="El Amarillo de la Vergüenza — Amarillo Indio" data-en="The Yellow of Shame — Indian Yellow">El Amarillo de la Vergüenza — Amarillo Indio</h3>
+              <p data-es="Producido alimentando vacas únicamente con hojas de mango —desnutriéndolas gravemente— para recolectar y procesar su orina concentrada. Un pigmento luminoso con un origen atroz." data-en="Produced by feeding cows only mango leaves—severely malnourishing them—to collect and process their concentrated urine. A luminous pigment with an atrocious origin.">
+                Producido alimentando vacas únicamente con hojas de mango —desnutriéndolas gravemente— para recolectar y procesar su orina concentrada. Un pigmento luminoso con un origen atroz.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ APLICACIÓN ═══ -->
+    <section class="section aplicacion" id="aplicacion" aria-labelledby="aplic-title">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow" data-es="03 · Aplicación" data-en="03 · Application">03 · Aplicación</p>
+          <h2 class="section-title" id="aplic-title" data-es="¿Por qué es Importante Saber de Color?" data-en="Why Does Color Knowledge Matter?">¿Por qué es Importante Saber de Color?</h2>
+        </header>
+        <div class="aplic-layout">
+          <div class="aplic-img-col">
+            <!-- Placeholder for Foto_Conferencia_6 -->
+            <div class="img-placeholder aplic-placeholder" aria-label="Diapositiva importancia del color">
+              <img src="imagenes/Conferencia - Sara Vilora - Foto 6.jpeg">
+              
+            </div>
+          </div>
+          <div class="aplic-pillars">
+            <div class="pillar-grid">
+              <article class="pillar-card">
+                <div class="pillar-icon" aria-hidden="true">✦</div>
+                <h3 data-es="Dios" data-en="God">Dios</h3>
+                <p data-es="El color como manifestación espiritual y simbólica a través de culturas y credos." data-en="Color as spiritual and symbolic manifestation across cultures and creeds.">El color como manifestación espiritual y simbólica a través de culturas y credos.</p>
+              </article>
+              <article class="pillar-card">
+                <div class="pillar-icon" aria-hidden="true">◉</div>
+                <h3 data-es="Color" data-en="Color">Color</h3>
+                <p data-es="Objetivar lo subjetivo para generar productos y servicios efectivos en diseño, moda y publicidad." data-en="Objectifying the subjective to generate effective products and services in design, fashion and advertising.">Objetivar lo subjetivo para generar productos y servicios efectivos en diseño, moda y publicidad.</p>
+              </article>
+              <article class="pillar-card">
+                <div class="pillar-icon" aria-hidden="true">◈</div>
+                <h3 data-es="Arte" data-en="Art">Arte</h3>
+                <p data-es="Ilustración, diseño gráfico, colorimetría textil: el dominio técnico del color amplifica la expresión." data-en="Illustration, graphic design, textile colorimetry: technical mastery of color amplifies expression.">Ilustración, diseño gráfico, colorimetría textil: el dominio técnico del color amplifica la expresión.</p>
+              </article>
+              <article class="pillar-card">
+                <div class="pillar-icon" aria-hidden="true">❋</div>
+                <h3 data-es="Vida" data-en="Life">Vida</h3>
+                <p data-es="El entorno como fuente de inspiración bien administrada: naturaleza, ciudad, textura, luz." data-en="Environment as a well-managed source of inspiration: nature, city, texture, light.">El entorno como fuente de inspiración bien administrada: naturaleza, ciudad, textura, luz.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ GALERÍA ═══ -->
+    <section class="section galeria" id="galeria" aria-labelledby="gal-title">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow" data-es="04 · Galería" data-en="04 · Gallery">04 · Galería</p>
+          <h2 class="section-title" id="gal-title" data-es="Evento de Moda ECCI" data-en="ECCI Fashion Event">Evento de Moda ECCI</h2>
+          <p class="section-subtitle" data-es="El color aplicado: textura, luz y diseño textil en escena." data-en="Color applied: texture, light and textile design on stage.">
+            El color aplicado: textura, luz y diseño textil en escena.
+          </p>
+        </header>
+        <div class="gallery-grid">
+
+          <article class="gallery-card" aria-labelledby="gal-1">
+            <div class="gallery-img-wrap">
+              <img src="imagenes/Stand 1 - Evento Moda Ecci.jpeg" alt="Stand 1 — Romanticismo y Texturas Suaves" loading="lazy" />
+              <div class="gallery-overlay">
+                <span class="gallery-number">01</span>
+                <p data-es="Romanticismo y Texturas Suaves" data-en="Romanticism & Soft Textures">Romanticismo y Texturas Suaves</p>
+              </div>
+            </div>
+            <p class="gallery-caption" id="gal-1" data-es="Tonos pastel, lencería e iluminación cálida." data-en="Pastel tones, lingerie and warm lighting.">Tonos pastel, lencería e iluminación cálida.</p>
+          </article>
+
+          <article class="gallery-card" aria-labelledby="gal-2">
+            <div class="gallery-img-wrap">
+              <img src="imagenes/Stand 2 - Evento Moda Ecci.jpeg" alt="Stand 2 — Elegancia y Brillo Metálico" loading="lazy" />
+              <div class="gallery-overlay">
+                <span class="gallery-number">02</span>
+                <p data-es="Elegancia y Brillo Metálico" data-en="Elegance & Metallic Gleam">Elegancia y Brillo Metálico</p>
+              </div>
+            </div>
+            <p class="gallery-caption" id="gal-2" data-es="Azul satinado, encajes y propuesta escenográfica con globos." data-en="Satin blue, lace and scenic proposal with balloons.">Azul satinado, encajes y propuesta escenográfica con globos.</p>
+          </article>
+
+          <article class="gallery-card" aria-labelledby="gal-3">
+            <div class="gallery-img-wrap">
+              <img src="imagenes/Stand 3 - Evento Moda Ecci.jpeg" alt="Stand 3 — Vanguardia Retro/Cyber" loading="lazy" />
+              <div class="gallery-overlay">
+                <span class="gallery-number">03</span>
+                <p data-es="Vanguardia Retro/Cyber" data-en="Retro/Cyber Avant-garde">Vanguardia Retro/Cyber</p>
+              </div>
+            </div>
+            <p class="gallery-caption" id="gal-3" data-es="Corsés rosados, mallas metálicas y CDs reflectantes." data-en="Pink corsets, metallic mesh and reflective CDs.">Corsés rosados, mallas metálicas y CDs reflectantes.</p>
+          </article>
+
+          <article class="gallery-card" aria-labelledby="gal-4">
+            <div class="gallery-img-wrap">
+              <img src="imagenes/Stand 4 - Evento Moda Ecci.jpeg" alt="Stand 4 — Arkhe x Andromeda" loading="lazy" />
+              <div class="gallery-overlay">
+                <span class="gallery-number">04</span>
+                <p data-es="Arkhe x Andromeda" data-en="Arkhe x Andromeda">Arkhe x Andromeda</p>
+              </div>
+            </div>
+            <p class="gallery-caption" id="gal-4" data-es="Contracultura oscura, texturas negras y música techno." data-en="Dark counterculture, black textures and techno music.">Contracultura oscura, texturas negras y música techno.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-credit" data-es="Conferencia 'Traigamos el Color de Vuelta' · ECCI · 2025" data-en="Conference 'Let's Bring Color Back' · ECCI · 2025">
+        Conferencia "Traigamos el Color de Vuelta" · ECCI · 2025
+      </p>
+      <a href="#top" class="footer-back" data-es="Volver al inicio ↑" data-en="Back to top ↑">Volver al inicio ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
