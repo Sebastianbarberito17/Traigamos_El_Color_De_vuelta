@@ -1,0 +1,87 @@
+/* ==========================================================================
+   reset.css — Normalización de estilos base
+   Proyecto: Traigamos el Color de Vuelta
+   Descripción: Reset minimalista para garantizar consistencia entre navegadores
+   ========================================================================== */
+
+/* 1. Box-sizing global: border-box simplifica cálculos de layout */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Eliminar márgenes y paddings del navegador */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 3. Tipografía base y scroll suave */
+html {
+  font-size: 16px;          /* Base para unidades rem */
+  scroll-behavior: smooth;  /* Scroll suave para anclas internas */
+  -webkit-text-size-adjust: 100%; /* Evita ajuste de texto en móviles iOS */
+}
+
+/* 4. Body: altura mínima completa y antialiasing de fuentes */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* 5. Media responsiva: imágenes y videos no desbordan su contenedor */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Formularios heredan tipografía del padre (comportamiento más predecible) */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+/* 7. Listas: sin estilos por defecto (se estilizan por componente) */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 8. Anclas: sin decoración por defecto */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* 9. Párrafos y headings: control de desbordamiento de texto */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 10. Respetar preferencia del usuario por movimiento reducido */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
